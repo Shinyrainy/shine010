@@ -15,7 +15,7 @@ section#about .wrap-headline {
 	padding-bottom: 10%
 }
 
-section#about h1 {
+section#about h2 {
 	color: #ffffff;
 }
 
@@ -78,6 +78,8 @@ footer {
 	width: 100%;
 	height: 100%;
 	backface-visibility: hidden;
+	background-color: #A9A9A9;
+	color: white;
 }
 
 .face.back {
@@ -94,14 +96,11 @@ section#wish {
 	padding-bottom: 10%;
 }
 
-/*teachers*/
 
-section#teachers {
-	padding-top: 10%;
-	padding-bottom: 10%;
-}
 
-section#teachers {
-	background-image: url(image/bg_52.jpg);
+/*video*/
+
+section#video {
+	background-image: url(image/bg_13.jpg);
 	background-size: cover;
 }
