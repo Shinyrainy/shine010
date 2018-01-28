@@ -106,5 +106,5 @@ section#video {
 }
 
 video {
-	position: relative;
+	position: absolute;
 }
