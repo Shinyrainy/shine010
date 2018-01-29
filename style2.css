@@ -83,42 +83,55 @@ footer {
 
 /*video*/
 
-
+section#video {
+	background-image: url(image/bg_10.jpg);
+	background-size: cover;
+}
 
 video {
 	position: absolute;
 }
 
 
-/*teachers*/
 
-section#teachers {
-	background-image: url(image/bg_10.jpg);
-	background-size: cover;
-}
-
-section#teachers .wrap-headline {
-	position: relative;
-	padding-top: 25%;
-	padding-bottom: 10%
-}
-
-section#teachers h2 {
-	color: #ffffff;
-}
-
-section#teachers hr {
-	width: 10%;
-	border-top-color: #ffffff;
-}
-
-section#teachers label{
-	margin: 10px;
-}
 
 /*wish*/
 
 section#wish {
 	padding-top: 5%;
 	padding-bottom: 5%;
+}
+
+div.flip-3d {perspective: 1200px; width: 98%; float: left;} 
+
+div.flip-3d figure {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: 1s transform;
+  font-size: 0.8rem;
+  text-align: center;
+}
+div.flip-3d figure img {
+  width: 100%; height: auto;
+}
+
+div.flip-3d figure figcaption {
+  position: absolute;
+  width: 100%; height: 100%; top: 0;
+  transform: rotateY(.5turn) translateZ(1px);
+  background: rgba(255,255,255,0.9);
+  text-align: center;
+  padding-top: 45%;
+  opacity: 0.6;
+  transition: 1s .5s opacity;
+}
+
+div.flip-3d:hover figure { transform: rotateY(.5turn); }
+div.flip-3d:hover figure figcaption { opacity: 1; } 
+
+div.flip-3d figure:after {
+  content: " "; display: block;
+  height: 8vw; width: 100%;
+  transform: rotateX(90deg);
+  background-image: radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0) 100%);
 }
