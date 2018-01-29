@@ -89,7 +89,7 @@ section#video {
 }
 
 video {
-	position: absolute;
+	position: relative;
 }
 
 
