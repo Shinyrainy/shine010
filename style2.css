@@ -88,8 +88,10 @@ section#video {
 	background-size: cover;
 }
 
-video {
+#_video {
 	position: relative;
+	padding-left: 7%;
+	padding-bottom: 7%;
 }
 
 
