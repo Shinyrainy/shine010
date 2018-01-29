@@ -93,7 +93,7 @@ video {
 /*teachers*/
 
 section#teachers {
-	background-image: url(image/bg_12.jpg);
+	background-image: url(image/bg_10.jpg);
 	background-size: cover;
 }
 
@@ -114,4 +114,11 @@ section#teachers hr {
 
 section#teachers label{
 	margin: 10px;
+}
+
+/*wish*/
+
+section#wish {
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
