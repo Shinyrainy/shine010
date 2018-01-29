@@ -119,54 +119,39 @@
 
     <section id="wish" class="bg-light">
     	<div class="container">
-        <div class="row">
+        <div class="row p-3">
+          <div class="col">
+          <!-- The grid: three columns -->
+<div class="row p-3">
 
-          <div class="col-lg-4 text-center">
-            <div id="f1_container">
-            <div id="card">
-              <div class="front face">
-                <span>
-                  <div class="text-center">願景：具國際觀出版人的搖籃</div>
-                </span>
-              </div>
-              <div class="back face">
-                <p>
-本系之教學目標旨在培養具人文與科技素養、理論與實務結合之多元智能人才。<br>期望培育出以傳統理論為基礎，並兼具圖文傳播暨數位應用科技與國際觀之專業人員
-</p>
-              </div>
-            </div>
-            </div>
-          </div>
+  <div class="column" onclick="openTab('b1');" style="background:#D3D3D3;"><h4>願景<br>具國際觀出版人的搖籃</h4></div>
 
-         <div class="col-lg-4 text-center">
-            <div id="f1_container">
-            <div id="card">
-              <div class="front face">
-                <span>
-                  <div class="text-center">定位：快樂的SOHO族<br>
-                  就業無障礙 深造沒困難</div>
-                </span>
-              </div>
-              <div class="back face">
-                <p>
+  <div class="column" onclick="openTab('b2');" style="background:#A9A9A9;"><h4>定位<br>快樂的SOHO族</h4></div>
+
+  <div class="column" onclick="openTab('b3');" style="background:#D3D3D3;">發展方向籃</div>
+
+</div>
+
+<!-- The expanding grid (hidden by default) -->
+<div id="b1" class="containerTab" style="display:none;background:#D3D3D3;">
+  <!-- If you want the ability to close the container, add a close button -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+  <h4>願景：具國際觀出版人的搖籃</h4>
+  <p>本系之教學目標旨在培養具人文與科技素養、理論與實務結合之多元智能人才。期望培育出以傳統理論為基礎，並兼具圖文傳播暨數位應用科技與國際觀之專業人員</p>
+</div>
+
+<div id="b2" class="containerTab" style="display:none;background:#A9A9A9;">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+  <h4>定位：快樂的SOHO族</h4>
+  <p>就業無障礙 深造沒困難<br>
 強調實作教學。培養學生具備數位內容產業所需之基本理論與實務操作能力，畢業後可立即開業或就業，或是前往國內外研究所作進一步之深造。
 </p>
-              </div>
-            </div>
-            </div>
-          </div>
+</div>
 
-          <div class="col-lg-4 text-center">
-            <div id="f1_container">
-            <div id="card">
-              <div class="front face">
-                <span>
-                  <div class="text-center">發展方向籃</div>
-                </span>
-              </div>
-              <div class="back face" >
-                <small>
-1.配合大出版理念，課程設置力求廣泛<br>
+<div id="b3" class="containerTab" style="display:none;background:#D3D3D3;">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+  <h4>發展方向籃</h4>
+  <p>1.配合大出版理念，課程設置力求廣泛<br>
 2.理論與實務並重，落實建教合作，縮短就業前置期<br>
 3.加強創意熟習科技，迎向科技時代<br>
 4.小班教學，嚴格淘汰，提升教學品質<br>
@@ -174,17 +159,39 @@
 6.加強外語訓練，擴大國際視野<br>
 7.發揚全人格之教育理念<br>
 8.履行企業社會責任，服務社會
-</small>
-              </div>
-            </div>
-            </div>
-          </div>
+</p>
+</div>
 
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="video">
+    <section id="teachers">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+          <div class="wrap-headline">
+            <h2 class="text-center">系上成員</h2>
+            <hr>
+            <div class="form-group">
+              <label>
+                <a class="btn btn-outline-light btn-lg" href="#" role="button">專任教授</a>
+              </label>
+              <label>
+                <a class="btn btn-outline-warning btn-lg" href="#" role="button">講師</a>
+              </label>
+              <label>
+                <a class="btn btn-outline-light btn-lg" href="#" role="button">行政秘書</a>
+              </label>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="video" class="bg-light">
       <div class="container">
         <div class="row p-3 embed-responsive embed-responsive-4by3">
           <div class="col-lg-10">
@@ -230,6 +237,8 @@
         <script src="js/bootstrap.bundle.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+    <script src="js/js.js"></script>
+
 
 </body>
 </html>
