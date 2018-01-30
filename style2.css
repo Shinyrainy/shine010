@@ -114,7 +114,7 @@ div.flip-3d figure {
   position: relative;
   transform-style: preserve-3d;
   transition: 1s transform;
-  font-size: 0.8rem;
+  font-size: 1rem;
   text-align: center;
 }
 div.flip-3d figure img {
