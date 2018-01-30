@@ -2,6 +2,21 @@ body {
 	font-family: 微軟正黑體;
 }
 
+/*video*/
+
+section#video {
+  padding-top: 3%;
+
+}
+
+#_video {
+  position: relative;
+  padding-left: 7%;
+  padding-bottom: 7%;
+}
+
+
+
 /*about*/
 
 section#about {
@@ -27,74 +42,6 @@ section#about hr {
 section#about label{
 	margin: 10px;
 }
-
-/*footer*/
-
-footer {
-	height: 12em;
-	padding: 2em;
-	background-image: url(image/eg_bg_3.jpeg);
-	background-size: 100%;
-	background-position: center center;
-	z-index: -1;
-	float: center;
-	text-align: center;
-}
-
-#footer_p {
-	font-size: 0.8em;
-	margin: 0.8em;
-	color: #ffffff;
-}
-
-
-/* The grid: Three equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 50px;
-    text-align: center;
-    font-size: 25px;
-    cursor: pointer;
-    color: white;
-}
-
-.containerTab {
-    padding: 20px;
-    color: white;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* Closable button inside the image */
-.closebtn {
-    float: right;
-    color: white;
-    font-size: 35px;
-    cursor: pointer;
-}
-
-
-
-/*video*/
-
-section#video {
-	background-image: url(image/bg_3.jpg);
-	background-size: cover;
-}
-
-#_video {
-	position: relative;
-	padding-left: 7%;
-	padding-bottom: 7%;
-}
-
-
 
 
 /*wish*/
@@ -141,4 +88,65 @@ div.flip-3d figure:after {
   height: 8vw; width: 100%;
   transform: rotateX(90deg);
   background-image: radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+/*teacher*/
+
+section#teacher {
+  background-image: url(image/bg_2.jpg);
+  background-size: cover;
+}
+
+section#teacher .wrap-headline {
+  position: relative;
+  padding-top: 10%;
+  padding-bottom: 3%
+}
+
+section#teacher h2 {
+  color: #ffffff;
+}
+
+section#teacher hr {
+  width: 7%;
+  border-top-color: #ffffff;
+}
+
+.card-group {
+  margin:auto;
+  width: 90%;
+  height: 90%;
+  margin-bottom: 3%;
+}
+
+section#teacher h5 {
+  color: #ffffff;
+}
+
+#card-group-1 {
+  margin:auto;
+  width: 60%;
+  height: 60%;
+
+}
+
+
+
+/*footer*/
+
+footer {
+  height: 12em;
+  padding: 2em;
+  background-image: url(image/eg_bg_3.jpeg);
+  background-size: 100%;
+  background-position: center center;
+  z-index: -1;
+  float: center;
+  text-align: center;
+}
+
+#footer_p {
+  font-size: 0.8em;
+  margin: 0.8em;
+  color: #ffffff;
 }
