@@ -1,9 +1,11 @@
-// Hide all elements with class="containerTab", except for the one that matches the clickable grid column
-function openTab(tabName) {
-    var i, x;
-    x = document.getElementsByClassName("containerTab");
-    for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-    }
-    document.getElementById(tabName).style.display = "block";
-}
+/* DEMO2 */
+$(document).ready(function(){
+    $("#testimonial-slider").owlCarousel({
+        items:2,
+        itemsDesktop:[1000,2],
+        itemsDesktopSmall:[979,2],
+        itemsTablet:[767,1],
+        pagination: true,
+        autoPlay:true
+    });
+});
