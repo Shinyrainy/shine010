@@ -299,28 +299,6 @@ section#teacher h4 {
 
 }
 
-
-
-/*footer*/
-
-footer {
-  height: 12em;
-  padding: 2em;
-  background-image: url(image/eg_bg_3.jpeg);
-  background-size: 100%;
-  background-position: center center;
-  z-index: -1;
-  float: center;
-  text-align: center;
-}
-
-#footer_p {
-  font-size: 0.8em;
-  margin: 0.8em;
-  color: #ffffff;
-}
-
-
 /*jquery*/
 
 
@@ -435,28 +413,33 @@ footer {
         background: #0177b5;
         border-color: #0177b5;
     }
-    
-    .owl-theme .owl-controls{
-        margin-top: 20px;
-    }
-    .owl-theme .owl-controls .owl-page span{
-        width: 10px;
-        height: 10px;
-        background:#fff;
-        opacity: 1;
-    }
-    .owl-theme .owl-controls .owl-page.active span,
-    
-    .owl-pagination{
-        margin-top: 40px;
-    }
 
     @media screen and (max-width: 990px){
-        .testimonial-parallax h2{
-            margin-bottom: 40px;
-        }
+        
         .testimonial{
             margin: 0;
         }
     }
-    .mt50{padding-top: 50px;}
+    .mt50{padding-top: 30px;}
+
+
+/*footer*/
+
+footer {
+  height: 12em;
+  padding: 2em;
+  background-image: url(image/eg_bg_3.jpeg);
+  background-size: 100%;
+  background-position: center center;
+  z-index: -1;
+  float: center;
+  text-align: center;
+}
+
+#footer_p {
+  font-size: 0.8em;
+  margin: 0.8em;
+  color: #ffffff;
+}
+
+
