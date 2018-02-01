@@ -329,9 +329,9 @@ footer {
         border-radius: 5px;
         padding: 30px;
         margin: 0 15px;
-        width: 450px;
+        width: 500px;
         height: 230px;
-        position: relative;
+        position: static;
     }
     .testimonial .testimonial-profile{
         width: 100px;
@@ -346,8 +346,31 @@ footer {
     }
     .testimonial .testimonial-content{
         padding-left: 30%;
+        position: relative;
 
     }
+
+    @media only screen and (max-width: 990px){
+        .testimonial{ width: 100%; }
+    }
+    @media only screen and (max-width: 767px){
+        
+        .testimonial .testimonial-content{
+            width: 100%;
+            float: left;
+            margin-left: 2%;
+           margin-top: -30%;
+        }
+        
+    }
+    @media only screen and (max-width: 480px){
+        
+        .testimonial .testimonial-content{
+            width: 75%;
+        }
+        
+    }
+
     .testimonial .testimonial-title{
         margin-bottom:0;
     }
