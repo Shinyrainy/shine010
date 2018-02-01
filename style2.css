@@ -331,6 +331,7 @@ footer {
         margin: 0 15px;
         width: 450px;
         height: 230px;
+        position: relative;
     }
     .testimonial .testimonial-profile{
         width: 100px;
