@@ -155,7 +155,7 @@ footer {
         border-radius: 5px;
         padding: 30px;
         margin: 0 15px;
-        width: 500px;
+        width: 450px;
         height: 230px;
     }
     .testimonial .testimonial-profile{
@@ -171,6 +171,7 @@ footer {
     }
     .testimonial .testimonial-content{
         padding-left: 30%;
+
     }
     .testimonial .testimonial-title{
         margin-bottom:0;
@@ -237,6 +238,21 @@ footer {
         border-color: #0177b5;
     }
     
+    .owl-theme .owl-controls{
+        margin-top: 20px;
+    }
+    .owl-theme .owl-controls .owl-page span{
+        width: 10px;
+        height: 10px;
+        background:#fff;
+        opacity: 1;
+    }
+    .owl-theme .owl-controls .owl-page.active span,
+    
+    .owl-pagination{
+        margin-top: 40px;
+    }
+
     @media screen and (max-width: 990px){
         .testimonial-parallax h2{
             margin-bottom: 40px;
