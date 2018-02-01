@@ -10,7 +10,7 @@ section#video {
 }
 
 #_video {
-  position: relative;
+  position: absolute;
   padding-left: 7%;
   padding-bottom: 7%;
 }
