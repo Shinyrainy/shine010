@@ -328,26 +328,33 @@ section#teacher h4 {
 
     }
 
-    @media only screen and (max-width: 990px){
-        .testimonial{ width: 100%; }
-        
+    @media only screen and (max-width: 1080px){
+        .testimonial .testimonial-content{
+            width: 100%;
+            float: right;
+            margin-right: 2%;
+            margin-top: -20%;
+        }
             
     }
-    @media only screen and (max-width: 1080px){
-        
+
+    @media only screen and (max-width: 990px){
         .testimonial .testimonial-content{
-            width: 150%;
+            width: 100%;
             float: right;
-            margin-right: 0%;
+            margin-right: 2%;
             margin-top: -20%;
+        }
+            
     }
+    
     @media only screen and (max-width: 767px){
         
         .testimonial .testimonial-content{
             width: 100%;
-            float: left;
-            margin-left: 2%;
-            margin-top: -30%;
+            float: right;
+            margin-right: 2%;
+            margin-top: -20%;
         }
         
     }
@@ -400,7 +407,7 @@ section#teacher h4 {
         width:30px;
         height:30px;
         line-height:30px;
-        color:#fff;
+        color:#b1c8e0;
         text-align:center;
         border:1px solid #9c9c9c;
     }
