@@ -325,7 +325,8 @@ section#teacher h4 {
     .testimonial .testimonial-content{
         padding-left: 30%;
         position: relative;
-
+        display: inline-block;
+        margin-top: -25%;
     }
 
     @media only screen and (max-width: 1080px){
@@ -333,7 +334,7 @@ section#teacher h4 {
         .testimonial .testimonial-content{
             width: 100%;
             float: right;
-            margin-top: -70%;
+            
         }
             
     }
@@ -344,9 +345,9 @@ section#teacher h4 {
         margin: 0;
       }
         .testimonial .testimonial-content{
-            width: 100%;
+            width: 125%;
             float: right;          
-            margin-top: -20%;
+            
         }
             
     }
@@ -356,7 +357,7 @@ section#teacher h4 {
         .testimonial .testimonial-content{
             width: 100%;
             float: right;        
-            margin-top: -30%;
+            
         }
         
     }
