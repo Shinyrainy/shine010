@@ -339,7 +339,10 @@ section#teacher h4 {
     }
 
     @media only screen and (max-width: 990px){
-      .testimonial {width: 100%;}
+      .testimonial {
+        width: 100%;
+        margin: 0;
+      }
         .testimonial .testimonial-content{
             width: 100%;
             float: right;          
@@ -364,6 +367,9 @@ section#teacher h4 {
         }
         
     }
+
+    
+    .mt50{padding-top: 50px;}
 
     .testimonial .testimonial-title{
         margin-bottom:0;
@@ -430,13 +436,7 @@ section#teacher h4 {
         border-color: #0177b5;
     }
 
-    @media screen and (max-width: 990px){
-        
-        .testimonial{
-            margin: 0;
-        }
-    }
-    .mt50{padding-top: 30px;}
+
 
 
 /*footer*/
