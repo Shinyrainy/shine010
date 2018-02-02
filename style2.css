@@ -334,8 +334,7 @@ section#teacher h4 {
             width: 100%;
             float: left;
             margin: auto;
-           
-           text-align: 0;
+            text-align: 0;
 
         }
     }
@@ -344,8 +343,8 @@ section#teacher h4 {
         .testimonial .testimonial-content{
             width: 100%;
             float: left;
-            margin-left: 2%;
-           margin-top: -30%;
+            margin: auto;
+            text-align: 0;
         }
         
     }
