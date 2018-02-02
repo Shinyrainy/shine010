@@ -326,8 +326,8 @@ section#teacher h4 {
         padding-left: 30%;
         padding-right: 10%;
         display: block;
-    position: absolute;
-    margin: auto;
+        position: absolute;
+        margin: auto;
     
     }
 
@@ -531,10 +531,49 @@ section#teacher h4 {
     background: #f7f5ec;
     text-decoration:none;
 }
+
 @media only screen and (max-width: 990px){
     .our-team{ margin-bottom: 30px; }
 }
+@media only screen and (max-width: 1080px){
+      .our-team {width: 100%;}
+      .our-team {
+            width: 100%;
+            float: right;
+            
+        }
+            
+    }
 
+    @media only screen and (max-width: 990px){
+      .our-team {
+        width: 100%;
+        margin: 0;
+      }
+        .our-team {
+            width: 125%;
+            float: right;          
+            
+        }
+            
+    }
+    
+    @media only screen and (max-width: 767px){
+        .our-team {width: 100%;}
+        .our-team {
+            width: 100%;
+            float: right;        
+            
+        }
+        
+    }
+    @media only screen and (max-width: 480px){
+        
+        .our-team{
+            width: 100%;
+        }
+        
+    }
 ._secretary {
   display: block;
   width: 100%;
@@ -542,6 +581,8 @@ section#teacher h4 {
   position: relative;
   left: 10%;
   border-radius: 6px;
+  float: right;
+  padding-left: 5%;
 }
 
 
