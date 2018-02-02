@@ -292,15 +292,6 @@ section#teacher h4 {
   color: #ffffff;
 }
 
-#card-group-1 {
-  margin:auto;
-  width: 60%;
-  height: 60%;
-
-}
-
-
-
 
     .testimonial{
         background-color: #f3f3f3;
@@ -312,8 +303,8 @@ section#teacher h4 {
         position: static;
     }
     .testimonial .testimonial-profile{
-        width: 100px;
-        height: 100px;
+        width: 130px;
+        height: 130px;
         margin: 0 30px 15px 0;
         float: left;
     }
