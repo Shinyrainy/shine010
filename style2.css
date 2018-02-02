@@ -442,7 +442,7 @@ section#teacher h4 {
 /*secretary*/
 .our-team{
     padding: 30px 0 40px;
-    background: #f7f5ec;
+    background: #f3f3f3;
     text-align: center;
     overflow: hidden;
     position: relative;
@@ -539,8 +539,10 @@ section#teacher h4 {
       .our-team {width: 100%;}
       .our-team {
             width: 100%;
-            float: right;
-            
+            float: left;
+            margin: auto;
+            left: 0; right: 0;
+
         }
             
     }
@@ -552,7 +554,7 @@ section#teacher h4 {
       }
         .our-team {
             width: 125%;
-            float: right;          
+            float: left;          
             
         }
             
@@ -562,7 +564,7 @@ section#teacher h4 {
         .our-team {width: 100%;}
         .our-team {
             width: 100%;
-            float: right;        
+            float: left;        
             
         }
         
@@ -579,10 +581,10 @@ section#teacher h4 {
   width: 100%;
   margin: auto;
   position: relative;
-  left: 10%;
-  border-radius: 6px;
-  float: right;
-  padding-left: 5%;
+  
+  
+  float: left;
+ 
 }
 
 
