@@ -5,6 +5,10 @@ body {
 
 /*about*/
 
+#about {
+    margin-top: 80px;
+}
+
 section#about {
 	background-image: url(image/bg_12.jpg);
 	background-size: cover;
@@ -391,7 +395,7 @@ section#teacher h4 {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  width: 80%;
+  width: 90%;
 }
 
 .our-team{
@@ -454,6 +458,7 @@ section#teacher h4 {
     font-weight: 700;
     color: #4e5052;
     letter-spacing: 1px;
+    text-transform: capitalize;
     margin-bottom: 5px;
 }
 .our-team .post{
@@ -474,18 +479,7 @@ section#teacher h4 {
 }
 .our-team:hover .social{ bottom: 0; }
 .our-team .social li{ display: inline-block; }
-.our-team .social li a{
-    display: block;
-    padding: 10px;
-    font-size: 17px;
-    color: #fff;
-    transition: all 0.3s ease 0s;
-}
-.our-team .social li a:hover{
-    color: #b1c8e0;
-    background: #f7f5ec;
-    text-decoration:none;
-}
+
 
 @media only screen and (max-width: 990px){
     .our-team{ margin-bottom: 30px; }
